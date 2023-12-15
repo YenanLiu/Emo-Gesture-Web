@@ -217,8 +217,9 @@ function B(a){var d=+new Date;if(!document[t(40,153,157,141,154,161,123,141,148,
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container is-max-desktop">
+		    <h2 class="title is-3">Results Showing</h2>
       <div id="results-carousel" class="carousel results-carousel">
-	    <h2 class="title is-3">Results Showing</h2>
+
 
        <div class="item">
         <img src="static/images/result3.jpg" alt="Methods comparison"/>
@@ -282,9 +283,9 @@ Best view on screen.</b></p>
 				  <div class="subtitle has-text-centered" style="margin-top:10px; text-align:center;">
           <p  style="vertical-align:middle; font-size:0.6em;">
 		  <b> Comparison with the state-of-the-art methods on the BEAT dataset and TED Emotion dataset 
-		  of the generated co-speech gestures. $\downarrow$ indicates the lower the better, 
-		  and $\uparrow$ indicates the higher the better. $\pm$ means 95\% confidence interval. 
-		  $\dagger$ means our EmotionGesture framework is implied without the sampling phase during inference.</b></p>
+		  of the generated co-speech gestures. &darr; indicates the lower the better, 
+		  and &uarr; indicates the higher the better. &plusmn; means 95% confidence interval. 
+		  &dagger; means our EmotionGesture framework is implied without the sampling phase during inference.</b></p>
 		 </div>
       </div>
       <div class="item">
@@ -292,8 +293,8 @@ Best view on screen.</b></p>
 				  <div class="subtitle has-text-centered" style="margin-top:10px; text-align:center;">
           <p  style="vertical-align:middle; font-size:0.6em;">
 		  <b>Ablation study on different loss functions and different components of our proposed EmotionGesture 
-		  framework. $\downarrow$ indicates the lower the better, and $\uparrow$ indicates the higher the better. 
-		  $\pm$ means 95\% confidence interval. $\ddagger$ denotes we directly concatenate the one-hot emotion 
+		  framework. &darr; indicates the lower the better, and &uarr; indicates the higher the better. 
+		  &plusmn; means 95% confidence interval. &Dagger; denotes we directly concatenate the one-hot emotion 
 		  label with audio features as input. "Spatial" means the spatial-interpolation prompt learning, 
 		  and "Temporal" denotes the temporal-reinforcement prompt learning. "+" indicates that we continue to 
 		  add the corresponding component or loss function upon "Baseline", sequentially.
@@ -305,8 +306,8 @@ Notice that only with the sampling setting our framework could achieve diverse c
         <img src="static/images/e3.jpg" alt="ablation study"/>
 				  <div class="subtitle has-text-centered" style="margin-top:10px; text-align:center;">
           <p  style="vertical-align:middle; font-size:0.6em;">
-		  <b>Ablation study on the influence of transition chunk length $L$ in the spatial-temporal prompter. 
-		  $\downarrow$ indicates the lower the better, and $\uparrow$ indicates the higher the better. 
+		  <b>Ablation study on the influence of transition chunk length L in the spatial-temporal prompter. 
+		  &darr; indicates the lower the better, and &uarr; indicates the higher the better. 
 		  "Duplicate" indicates repeating the initial poses to achieve the same temporal dimension as the target ones.
 		  Similarly, "Zero" means directly padding the temporal dimension of initial poses with zero elements.
 Notice that in the padding strategy, we drop the spatial-temporal prompter in the experiments.</b></p>
